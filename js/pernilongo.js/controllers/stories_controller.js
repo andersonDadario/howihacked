@@ -37,7 +37,7 @@ StoriesController.show = function(params){
     HttpHelper.loadPage({
         'viewUrl' : 'stories/show.html',
         'context' : {'story': stories[0]},
-        'callback' : StoriesController.updateMenu
+        'complete' : StoriesController.updateMenu
     });
 }
 
