@@ -8,5 +8,5 @@
 
 ## About the author
 
-- Anderson Dadario (@andersonmvd)
+- Anderson Dadario ([@andersonmvd](https://twitter.com/andersonmvd))
 - More info at [http://dadario.com.br](http://dadario.com.br)
