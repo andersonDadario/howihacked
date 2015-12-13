@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h2>Stories</h2>
+  <hr/>
+  {{#if no_results}}
+      <p>Your query for <b>{{query}}</b> returned no results.</p>
+  {{/if}}
+
+  <div class="row">
+    {{#each story}}
+      <div class="col-lg-4">
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+        <p><a class="btn btn-primary" href="#/stories/{{slug}}" role="button">View details &raquo;</a></p>
+      </div>
+    {{/each}}
+  </div>
+</div>

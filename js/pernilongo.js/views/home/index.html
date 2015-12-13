@@ -1,0 +1,29 @@
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <h1>How I Hacked</h1>
+  <p class="lead">Open source database of hacking stories for educational purposes</p>
+  <form action="#/submitSearch">
+      <select name="search" class="select2" multiple="multiple" />
+      </select>
+      <br/><br/>
+      <button type="submit" class="btn btn-lg btn-success">Search Stories</button><br/>
+      or <a href="#/submit">submit a story</a>
+  </form>
+</div>
+
+<!-- Example row of columns -->
+<div style="text-align:center">
+  <div class="well">
+    <h2>Latest Stories</h2>
+  </div>
+  <hr/>
+  <div class="row">
+    {{#each story}}
+      <div class="col-lg-4">
+        <h3>{{title}}</h3>
+        <p>{{description}}</p>
+        <p><a class="btn btn-primary" href="#/stories/{{slug}}" role="button">View details &raquo;</a></p>
+      </div>
+    {{/each}}
+  </div>
+</div>

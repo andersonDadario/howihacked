@@ -1,0 +1,122 @@
+{{#with story}}
+  <div style="text-align:center">
+    <h2>{{title}}</h2>
+    <hr/>
+    <div class="row">
+      <p>{{description}}</p>
+
+      <table align="center" class="table">
+        <tr>
+          <td>URLs: </td>
+          <td>
+            {{#each urls}}
+              <a href="{{.}}">{{.}}</a><br/>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
+          <td>Hacked by: </td>
+          <td>
+            {{#each hacked_by}}
+              {{.}}<br/>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
+          <td>Affected companies: </td>
+          <td>
+            {{#each companies}}
+              {{.}}<br/>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
+          <td>Affected hosts: </td>
+          <td>
+            {{#each hosts}}
+              {{.}}<br/>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
+          <td>Affected domains: </td>
+          <td>
+            {{#each domains}}
+              <a href="//{{.}}">{{.}}</a><br/>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
+          <td>Searchable tags: </td>
+          <td>
+            {{#each tags}}
+              <a href="#/stories/tags/{{.}}">{{.}}</a><br/>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
+          <td>Hacked at: </td>
+          <td>{{hacked_at}}</td>
+        </tr>
+
+        <tr>
+          <td>Reported at: </td>
+          <td>{{reported_at}}</td>
+        </tr>
+
+        <tr>
+          <td>Fixed at: </td>
+          <td>{{fixed_at}}</td>
+        </tr>
+
+        <tr>
+          <td>Rewarded at: </td>
+          <td>{{rewarded_at}}</td>
+        </tr>
+
+        <tr>
+          <td>Reward Amount: </td>
+          <td>{{reward_amount}} {{reward_currency}}</td>
+        </tr>
+
+        <tr>
+          <td>Database Entry Created by: </td>
+          <td>{{created_by}}</td>
+        </tr>
+
+        <tr>
+          <td>Database Entry Updated by: </td>
+          <td>{{#each updated_by}}
+              {{.}}<br/>
+            {{/each}}</td>
+        </tr>
+
+        <tr>
+          <td>Database Entry Created at: </td>
+          <td>{{created_at}}</td>
+        </tr>
+
+        <tr>
+          <td>Database Entry Updated at: </td>
+          <td>{{updated_at}}</td>
+        </tr>
+
+        <tr>
+          <td>URLs published at: </td>
+          <td>{{published_at}}</td>
+        </tr>
+
+        <tr>
+          <td>Story permalink path: </td>
+          <td>{{slug}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+{{/with}}

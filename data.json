@@ -1,0 +1,223 @@
+{
+    "data": [
+        {
+            "slug" : "multiple-vulnerabilities-on-pocket",
+            "title": "Multiple Vulnerabilities on Pocket",
+            "description": "Clint Ruoho exploited many vulnerabilities on Pocket that started with a Server Side Request Forgery (SSRF) to localhost. That led to one vulnerability after another. Pocket took 1 month to fix them all.",
+            "urls": [ "https://www.gnu.gl/blog/Posts/multiple-vulnerabilities-in-pocket/" ],
+            "companies": [ "Pocket" ],
+            "hosts": [],
+            "domains" : [ "pocket.com" ],
+            "tags": [ "Pocket", "SSRF", "AmazonEC2", "ProtocolHandler" ],
+            "hacked_at": "2015-07-25",
+            "reported_at": "2015-07-25",
+            "fixed_at": "2015-08-17",
+            "rewarded_at": null,
+            "reward_amount": null,
+            "reward_currency": null,
+            "hacked_by": [ "@ruoho" ],
+            "published_at": "2015-08-18",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        ,{
+            "slug" : "neglected-dns-records-exploited-to-takeover-subdomains",
+            "title": "Neglected DNS records exploited to takeover subdomains",
+            "description": "Yassine found a CNAME (DNS entry) on Redbooth that pointed to a Heroku app. He leverage this fact to set a new app there and use the same name.",
+            "urls": [ "http://yassineaboukir.com/blog/neglected-dns-records-exploited-to-takeover-subdomains/" ],
+            "companies": [ "Redbooth" ],
+            "hosts" : [],
+            "domains" : [ "redbooth.com" ],
+            "tags": [ "Redbooth", "SubdomainTakeover" ],
+            "hacked_at": "2015-02-09",
+            "reported_at": "2015-02-09",
+            "fixed_at": "2015-02-11",
+            "rewarded_at": null,
+            "reward_amount": null,
+            "reward_currency": null,
+            "hacked_by": [ "@Yassineaboukir" ],
+            "published_at": "2015-02-10",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        , {
+            "slug" : "subdomain-takeover-on-users-tweetdeck-com",
+            "title": "Subdomain Takeover on users.tweetdeck.com",
+            "description": "@missoum1307 spotted a dangling DNS entry that allowed a TweetDeck subdomain takeover. Twitter fixed on the same day.",
+            "urls": ["https://hackerone.com/reports/42236"],
+            "companies": [ "Twitter" ],
+            "hosts" : [],
+            "domains" : [ "users.tweetdeck.com" ],
+            "tags": [ "Twitter", "TweetDeck", "SubdomainTakeover", "AmazonS3" ],
+            "hacked_at": "2014-12-31",
+            "reported_at": "2014-12-31",
+            "fixed_at": "2014-12-31",
+            "rewarded_at": "2015-01-06",
+            "reward_amount": 420,
+            "reward_currency": "USD",
+            "hacked_by": [ "@missoum1307" ],
+            "published_at": "2014-12-31",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        , {
+            "slug" : "subdomain-takeover-on-users-tweetdeck-com",
+            "title": "Subdomain Takeover on users.tweetdeck.com",
+            "description": "Frans Rosén spotted a dangling DNS entry that allowed a Vine subdomain takeover. Twitter fixed on the same day.",
+            "urls": ["https://hackerone.com/reports/32825"],
+            "companies": [ "Twitter" ],
+            "hosts" : [],
+            "domains" : [ "media.vine.co" ],
+            "tags": [ "Twitter", "Vine", "SubdomainTakeover", "AmazonS3" ],
+            "hacked_at": "2014-10-25",
+            "reported_at": "2014-10-25",
+            "fixed_at": "2014-10-27",
+            "rewarded_at": "2014-11-03",
+            "reward_amount": 1680,
+            "reward_currency": "USD",
+            "hacked_by": [ "@fransrosen" ],
+            "published_at": "2014-11-03",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        , {
+            "slug" : "hacking-paypal-accounts-with-one-click-patched",
+            "title": "Hacking PayPal Accounts with one click (Patched)",
+            "description": "Yasser ali exploited many vulnerabilities on PayPal starting with CSRF token reuse.",
+            "urls": [
+                "http://yasserali.com/hacking-paypal-accounts-with-one-click/",
+                "http://thehackernews.com/2014/12/hacking-paypal-account.html"
+            ],
+            "companies": [ "PayPal" ],
+            "hosts" : [],
+            "domains" : [ "paypal.com" ],
+            "tags": [ "PayPal", "CSRF", "SecurityQuestions" ],
+            "hacked_at": "2014-10-09",
+            "reported_at": "2014-10-09",
+            "fixed_at": null,
+            "rewarded_at": null,
+            "reward_amount": null,
+            "reward_currency": null,
+            "hacked_by": [ "@garagosy" ],
+            "published_at": "2014-10-09",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        , {
+            "slug" : "how-i-hacked-hotmail",
+            "title": "How I Hacked Hotmail",
+            "description": "Wesley Wineberg found a CSRF vulnerability in a critical authentication system used by Hotmail. He earned 24,000 USD for that.",
+            "urls": [
+                "https://www.synack.com/2015/10/08/how-i-hacked-hotmail/"
+            ],
+            "companies": [ "Microsoft" ],
+            "hosts" : [],
+            "domains" : [ "login.live.com" ],
+            "tags": [ "Microsoft", "Hotmail", "OAuth", "CSRF" ],
+            "hacked_at": "2015-08-23",
+            "reported_at": "2015-08-23",
+            "fixed_at": "2015-09-15",
+            "rewarded_at": "2015-09-15",
+            "reward_amount": 24000,
+            "reward_currency": "USD",
+            "hacked_by": [ "@synack", "Wesley Wineberg" ],
+            "published_at": "2014-10-09",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        , {
+            "slug" : "how-patreon-got-hacked-publicly-exposed-werkzeug-debugger",
+            "title": "How Patreon got hacked - Publicly exposed Werkzeug Debugger",
+            "description": "Detectify warned Patreon before they got hacked. Patreon had a publicly exposed debugger that allowed attackers to issue arbitrary commands.",
+            "urls": [
+                "http://labs.detectify.com/post/130332638391/how-patreon-got-hacked-publicly-exposed-werkzeug"
+            ],
+            "companies": [ "Patreon" ],
+            "hosts" : [],
+            "domains" : [ "patreon.com" ],
+            "tags": [ "Patreon", "WerkzeugDebugger", "RCE" ],
+            "hacked_at": "2015-09-28",
+            "reported_at": "2015-09-28",
+            "fixed_at": null,
+            "rewarded_at": null,
+            "reward_amount": null,
+            "reward_currency": null,
+            "hacked_by": [ "@detectify" ],
+            "published_at": "2015-10-02",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        , {
+            "slug" : "xss-to-rce-in-atlassian-hipchat",
+            "title": "XSS to RCE in Atlassian Hipchat",
+            "description": "Matt Austin found multiple vulnerabilities on Atlassian HipChat ranging from XSS, to Protocol Handling exploit and finally Remote Code Execution (RCE).",
+            "urls": [
+                "http://maustin.net/2015/11/12/hipchat_rce.html"
+            ],
+            "companies": [ "Atlassian" ],
+            "hosts" : [],
+            "domains" : [ "hipchat.com" ],
+            "tags": [ "Atlassian", "HipChat", "XSS", "RCE", "ProtocolHandler" ],
+            "hacked_at": null,
+            "reported_at": null,
+            "fixed_at": null,
+            "rewarded_at": null,
+            "reward_amount": null,
+            "reward_currency": null,
+            "hacked_by": [ "@mattaustin" ],
+            "published_at": "2015-11-15",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        , {
+            "slug" : "hacking-starbucks-for-unlimited-coffee",
+            "title": "Hacking Starbucks for unlimited coffee",
+            "description": "Egor Homakov exploited a race condition vulnerability on Starbucks gift card processing system and got more credits than he would be able to.",
+            "urls": [
+                "http://sakurity.com/blog/2015/05/21/starbucks.html"
+            ],
+            "companies": [ "Starbucks" ],
+            "hosts" : [],
+            "domains" : [ "starbucks.com" ],
+            "tags": [ "Starbucks", "RaceCondition" ],
+            "hacked_at": null,
+            "reported_at": "2015-03-23",
+            "fixed_at": null,
+            "rewarded_at": null,
+            "reward_amount": null,
+            "reward_currency": null,
+            "hacked_by": [ "@homakov" ],
+            "published_at": "2015-05-21",
+            "created_at": "2015-12-12",
+            "updated_at": "2015-12-12",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+    ]
+}
+
+
