@@ -70,8 +70,8 @@
         }
 
         , {
-            "slug" : "subdomain-takeover-on-users-tweetdeck-com",
-            "title": "Subdomain Takeover on users.tweetdeck.com",
+            "slug" : "subdomain-takeover-on-media-vine-co",
+            "title": "Subdomain Takeover on media.vine.co",
             "description": "Frans Rosén spotted a dangling DNS entry that allowed a Vine subdomain takeover. Twitter fixed on the same day.",
             "urls": ["https://hackerone.com/reports/32825"],
             "companies": [ "Twitter" ],
