@@ -1,13 +1,5 @@
-var conf_production = {
+var conf = {
     'deployTarget' : '#content',
-    'viewUrl' : 'http://howihacked.info/js/pernilongo.js/views/',
-    'apiUrl' : 'http://howihacked.info/'
+    'viewUrl' : '/js/pernilongo.js/views/',
+    'apiUrl' : '/'
 }
-
-var conf_development = {
-    'deployTarget' : '#content',
-    'viewUrl' : 'http://localhost:8000/js/pernilongo.js/views/',
-    'apiUrl' : 'http://localhost:8000/'
-}
-
-var conf = conf_production;

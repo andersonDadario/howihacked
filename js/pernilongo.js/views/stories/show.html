@@ -61,6 +61,24 @@
         </tr>
 
         <tr>
+          <td>CVE IDs: </td>
+          <td>
+            {{#each cve_ids}}
+              <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name={{.}}">{{.}}</a><br/>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
+          <td>OSVDB IDs: </td>
+          <td>
+            {{#each osvdb_ids}}
+              <a href="http://osvdb.org/show/osvdb/{{.}}">{{.}}</a><br/>
+            {{/each}}
+          </td>
+        </tr>
+
+        <tr>
           <td>Hacked at: </td>
           <td>{{hacked_at}}</td>
         </tr>
