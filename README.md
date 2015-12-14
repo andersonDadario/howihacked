@@ -3,7 +3,7 @@
 - All stories are stored in data.json
 - The web application does all the filtering / presentation
 - The web applications uses a very simple javascript framework (pernilongo.js)
-- To install, just download all files and open "index.html" in your browser
+- All files are static, so to install, run them under Nginx / Apache for example
 
 ### Contributing
 
