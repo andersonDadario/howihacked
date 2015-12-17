@@ -1,6 +1,33 @@
 {
     "data": [
         {
+            "slug" : "instagram-million-dollar-bug",
+            "title": "Instagram's Million Dollar Bug",
+            "description": "Wesley Wineberg found multiple vulnerabilities on Instagram, including RCE. The most interesting part is how (badly) Facebook reacted to his findings.",
+            "urls": [
+                "http://www.exfiltrated.com/research-Instagram-RCE.php"
+            ],
+            "companies": [ "Instagram", "Facebook" ],
+            "hosts": [],
+            "domains" : ["sensu.instagram.com"],
+            "tags": [ "Facebook", "Instagram", "RCE", "Ruby" ],
+            "cve_ids": [],
+            "osvdb_ids": [],
+            "hacked_at": "2015-10-21",
+            "reported_at": "2015-10-21",
+            "fixed_at": null,
+            "rewarded_at": "2015-11-16",
+            "reward_amount": 2500,
+            "reward_currency": "USD",
+            "hacked_by": [ "Wesley Wineberg" ],
+            "published_at": "2015-12-16",
+            "created_at": "2015-12-14",
+            "updated_at": "2015-12-14",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        ,{
             "slug" : "owncloud-6-0-0a-from-xss-to-shell",
             "title": "OwnCloud 6.0.0a: From XSS to Shell",
             "description": "James Sibley exploited a XSS that captured the CSRF token that led to a shell upload in the end.",
