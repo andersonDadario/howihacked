@@ -7,7 +7,8 @@
             "urls": [
                 "http://www.exfiltrated.com/research-Instagram-RCE.php",
                 "https://www.facebook.com/notes/alex-stamos/bug-bounty-ethics/10153799951452929",
-                "https://news.ycombinator.com/item?id=10754194"
+                "https://news.ycombinator.com/item?id=10754194",
+                "https://www.reddit.com/r/netsec/comments/3x8fsk/instagrams_million_dollar_bug_threats_lies_and/"
             ],
             "companies": [ "Instagram", "Facebook" ],
             "hosts": [],
