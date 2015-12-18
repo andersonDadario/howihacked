@@ -3,9 +3,10 @@
         {
             "slug" : "instagram-million-dollar-bug",
             "title": "Instagram's Million Dollar Bug",
-            "description": "Wesley Wineberg found multiple vulnerabilities on Instagram, including RCE. The most interesting part is how (badly) Facebook reacted to his findings.",
+            "description": "Wesley Wineberg found multiple vulnerabilities on Instagram, including RCE. The most interesting part is how (badly) Facebook reacted to his findings on his view. Alex Stamos (Facebook CSO) replied.",
             "urls": [
-                "http://www.exfiltrated.com/research-Instagram-RCE.php"
+                "http://www.exfiltrated.com/research-Instagram-RCE.php",
+                "https://www.facebook.com/notes/alex-stamos/bug-bounty-ethics/10153799951452929"
             ],
             "companies": [ "Instagram", "Facebook" ],
             "hosts": [],
