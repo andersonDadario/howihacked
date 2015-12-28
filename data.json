@@ -4,7 +4,7 @@
         {
             "slug" : "hacking-into-internet-connected-light-bulbs",
             "title": "Hacking into Internet Connected Light Bulbs",
-            "description": "Alex Chapman reverse engineered LIFX light bulbs to discover the harcoded wifi credentials used in their internal Wifi.",
+            "description": "Alex Chapman reverse engineered LIFX light bulbs to discover the harcoded wifi credentials used in their internal Wifi component.",
             "urls": ["http://www.contextis.com/resources/blog/hacking-internet-connected-light-bulbs/"],
             "companies": [ "LIFX" ],
             "hosts" : [],
