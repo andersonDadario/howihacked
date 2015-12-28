@@ -5,13 +5,15 @@
       <p>Your query for <b>{{query}}</b> returned no results.</p>
   {{/if}}
 
-  <div class="row">
-    {{#each story}}
-      <div class="col-lg-4">
-        <h3>{{title}}</h3>
-        <p>{{description}}</p>
-        <p><a class="btn btn-primary" href="#/stories/{{slug}}" role="button">View details &raquo;</a></p>
-      </div>
-    {{/each}}
-  </div>
+  {{#each story_chunks}}
+    <div class="row">
+      {{#each .}}
+        <div class="col-lg-4 col-sm-4 col-md-4">
+          <h3>{{title}}</h3>
+          <p>{{description}}</p>
+          <p><a class="btn btn-primary" href="#/stories/{{slug}}" role="button">View details &raquo;</a></p>
+        </div>
+      {{/each}}
+    </div>
+  {{/each}}
 </div>

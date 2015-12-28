@@ -2,10 +2,16 @@ var StoriesController = function(){}
 
 StoriesController.index = function(params){
     var stories = Story.find();
+    var stories_in_chunks = [];
+    var i,j,temparray,chunk = 3;
+    for (i=0,j=stories.length; i<j; i+=chunk) {
+        temparray = stories.slice(i,i+chunk);
+        stories_in_chunks.push(temparray);
+    }
 
     HttpHelper.loadPage({
         'viewUrl' : 'stories/index.html',
-        'context' : {'story': stories},
+        'context' : {'story_chunks': stories_in_chunks},
         'complete' : StoriesController.updateMenu
     });
 }
