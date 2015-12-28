@@ -1,17 +1,21 @@
 var StoriesController = function(){}
 
-StoriesController.index = function(params){
-    var stories = Story.find();
+function getChunksFrom(stories){
     var stories_in_chunks = [];
     var i,j,temparray,chunk = 3;
     for (i=0,j=stories.length; i<j; i+=chunk) {
         temparray = stories.slice(i,i+chunk);
         stories_in_chunks.push(temparray);
     }
+    return stories_in_chunks;
+}
+
+StoriesController.index = function(params){
+    var stories = Story.find();
 
     HttpHelper.loadPage({
         'viewUrl' : 'stories/index.html',
-        'context' : {'story_chunks': stories_in_chunks},
+        'context' : {'story_chunks': getChunksFrom(stories)},
         'complete' : StoriesController.updateMenu
     });
 }
@@ -23,7 +27,7 @@ StoriesController.query = function(params){
     HttpHelper.loadPage({
         'viewUrl' : 'stories/index.html',
         'context' : {
-            'story': stories,
+            'story_chunks': getChunksFrom(stories),
             'no_results': (stories.length==0),
             'query' : query
         },
