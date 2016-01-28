@@ -2,6 +2,31 @@
     "data": [
 
         {
+            "slug" : "an-xss-on-facebook-via-pngs-and-wonky-content-types",
+            "title": "An XSS on Facebook via PNGs & Wonky Content Types",
+            "description": "@fin1te exploited a complex XSS on a CDN used by Facebook by abusing PNG files",
+            "urls": ["https://fin1te.net/articles/xss-on-facebook-via-png-content-types/"],
+            "companies": [ "Facebook" ],
+            "hosts" : [],
+            "domains" : [ "http://facebook.com/" ],
+            "tags": [ "Facebook", "XSS", "PNG" ],
+            "cve_ids": [],
+            "osvdb_ids": [],
+            "hacked_at": null,
+            "reported_at": null,
+            "fixed_at": null,
+            "rewarded_at": null,
+            "reward_amount": null,
+            "reward_currency": null,
+            "hacked_by": [ "@fin1te" ],
+            "published_at": "2016-01-27",
+            "created_at": "2016-01-28",
+            "updated_at": "2016-01-28",
+            "created_by": "@andersonmvd",
+            "updated_by": []
+        }
+
+        ,{
             "slug" : "hacking-into-internet-connected-light-bulbs",
             "title": "Hacking into Internet Connected Light Bulbs",
             "description": "Alex Chapman reverse engineered LIFX light bulbs to discover the harcoded wifi credentials used in their internal Wifi component.",
